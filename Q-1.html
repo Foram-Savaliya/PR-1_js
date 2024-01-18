@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all mathematical operation</title>
+</head>
+<body>
+
+    <h1 id="addition"></h1>
+    <h1 id="substarction"></h1>
+    <h1 id="multiplication"></h1>
+    <h1 id="division"></h1>
+
+
+    <script type="text/javascript">
+        var a = parseInt(prompt("Enter the first value :- "));
+        var b = parseInt(prompt("Enter the second value :- "));
+        document.write("A is :-" + a);
+        document.write("<br>")
+        document.write("B is :-" + b);
+        document.getElementById("addition").innerHTML = `Ans of Addition = ${a+b}`;
+        document.getElementById("substarction").innerHTML = `Ans of substarction = ${a-b}`;
+        document.getElementById("multiplication").innerHTML = `Ans of multiplication = ${a*b}`;
+        document.getElementById("division").innerHTML = `Ans of division = ${a/b}`;
+    </script>
+</body>
+</html>
